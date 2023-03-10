@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 7%;
+}
+
+form {
+  padding: 20rem;
+  border-radius: 10rem;
+  box-shadow: 0rem 0rem 10rem 2rem #ccc;
+  margin: 0 auto;
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  border: none;
+  padding: 10rem;
+  width: 95%;
+  margin-top: 2%;
+  border-radius: 5rem;
+  border: 1rem solid #ccc;
+  font-size: 16rem;
+}
+
+#btn {
+  margin: 0 auto;
+  width: 50%;
+  margin: 6rem auto;
+  margin-top: 3%;
+  border: none;
+}
+
+input[type="submit"] {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20rem;
+  border: 1rem solid #ccc;
+  box-shadow: 0rem 0rem 10rem 2rem #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 4%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  * {
+    font-size: 5%;
+  }
+}
+/* how to center a div */
